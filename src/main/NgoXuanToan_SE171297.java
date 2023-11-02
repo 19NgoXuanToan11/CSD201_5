@@ -6,7 +6,6 @@ import menu.Menu;
 import obj.Product;
 
 public class NgoXuanToan_SE171297 {
-
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         MyStack stack = new MyStack();
@@ -33,7 +32,7 @@ public class NgoXuanToan_SE171297 {
                     stack.push(product2);
                     stack.push(product3);
                     break;
-                
+                    
                 case 2:
                     stack.print();
                     break;
@@ -54,5 +53,4 @@ public class NgoXuanToan_SE171297 {
             } 
         } while (choice != 5);
     }
-    
 }
